@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Work+Sans:wght@100&display=swap');
+
+:root{
+font-family: 'League Spartan';
+background-color: #121214;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* Background black */
+#bg {
+    background-color: #121214;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+  /* Right Logo */
+#logo1{
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    top: 50px;
+    left: 30px;
+    z-index: 3;
+}
+
+/* Text Area */
+
+#textbox{
+    position: absolute;
+    width: 647px;
+    height: 102px;
+    left: 36px;
+    top: 236px;
+    z-index: 3;
+    color: white;
+}
+
+#text1{
+    font-family: 'WorK Sans';
+    font-size: 24px;
+    line-height: 28px;
+    color: #08C05E;
+    z-index: 3;
+}
+
+/* Formulario */
+
+#formid {
+    z-index: 3;
+    position: absolute;
+    width: 80%;
+    height: 84px;
+    left: 36px;
+    top:450px;
+    border: hidden;
+}
+
+#field{
+    border: hidden;
+    color: #A8A8A8;
+}
+
+#input{
+    border-left-color: #08C05E;
+    width: 146%;
+    height: 34px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left-width: 3px;
+}
+
+#button{
+
+     background-color: #8257e5;
+     position: absolute;
+     border: 1px;
+     height: 36px;
+     width: 35px;
+     margin-left: 142.4%;
+     margin-top: -35px;
+     border: 2px solid black;
+}
+
+/* Background Image */
+
+#imgbg2{
+    position: absolute;
+    z-index: 0;
+    width: 85%;
+    height:100%;
+    left: 15%;
+    overflow: hidden;
+
+}
+
+/* See more */
+
+#seemore{
+    font-weight: 700;
+    font-size: 14px;
+    color: #8257e5;
+    text-decoration: none;
+    line-height: 19px;
+        
+    position: absolute;
+    z-index: 3;
+    top: 550px;
+    left: 50px;
+
+    width: 300px;
+}
+
+#textlink {
+    justify-content: center;
+}
+
+#arrow{
+    position: absolute;
+    left: 140px;
+    top: -1px;
+}
